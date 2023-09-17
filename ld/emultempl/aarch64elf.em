@@ -490,7 +490,7 @@ PARSE_AND_LIST_LONGOPTS='
   { "discard-sframe", no_argument, NULL, OPTION_DISCARD_SFRAME},
 '
 
-PARSE_AND_LIST_OPTIONS='
+PARSE_AND_LIST_OPTIONS=${PARSE_AND_LIST_OPTIONS}'
   fprintf (file, _("  --no-enum-size-warning      Don'\''t warn about objects with incompatible\n"
 		   "                                enum sizes\n"));
   fprintf (file, _("  --no-wchar-size-warning     Don'\''t warn about objects with incompatible\n"
